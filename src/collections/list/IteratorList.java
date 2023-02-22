@@ -1,4 +1,4 @@
-package list;
+package collections.list;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -14,7 +14,7 @@ public class IteratorList {
         String[] group = {"one", "two", "three", "four", "five"};
         List<String> mylist = new ArrayList<>();
 
-        // adding strings to list 'mylist' from array 'group'
+        // adding strings to collections.list 'mylist' from array 'group'
         Collections.addAll(mylist, group);
 
         for (String s : mylist) {
